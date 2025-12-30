@@ -33,7 +33,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10">
       <div className="px-4">
         
         <div className="text-center mb-16">
@@ -49,7 +49,7 @@ const Services = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group relative bg-white border border-slate-200 p-8 rounded-3xl transition-all duration-300 hover:shadow-md hover:shadow-emerald-100 hover:-translate-y-2"
+              className="group relative border border-slate-300 p-8 rounded-3xl transition-all duration-300 hover:shadow-md hover:shadow-emerald-100 hover:-translate-y-2"
             >
               <div className={`w-16 h-16 ${service.bgClass} ${service.textClass} rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform`}>
                 {service.icon}
