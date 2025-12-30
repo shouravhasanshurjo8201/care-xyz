@@ -2,7 +2,7 @@
 import AboutSection from "@/components/AboutSection";
 import BannerSlider from "@/components/BannerSlider";
 import Services from "@/components/Services";
-
+import TestimonialsSection from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <BannerSlider />
       <Services />
       <AboutSection />
+      <TestimonialsSection />
     </div>
   );
 }

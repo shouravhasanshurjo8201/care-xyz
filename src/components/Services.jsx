@@ -35,7 +35,7 @@ const Services = () => {
   return (
     <section className="py-10">
       <div className="px-4">
-        
+
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-black text-emerald-400 mb-4">
             Our Specialized Services
@@ -79,7 +79,7 @@ const Services = () => {
               </div>
             </div>
           ))}
-        </div> 
+        </div>
       </div>
     </section>
   );
