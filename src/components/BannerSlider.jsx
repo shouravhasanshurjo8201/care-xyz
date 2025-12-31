@@ -91,7 +91,7 @@ const BannerSlider = () => {
                       Book a Service
                     </button>
                     <button 
-                       onClick={() => router.push('/about')}
+                       onClick={() => router.push('/About')}
                        className="hidden md:flex bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 text-white font-black px-8 py-4 md:px-10 md:py-5 rounded-2xl transition-all"
                     >
                       How it Works
