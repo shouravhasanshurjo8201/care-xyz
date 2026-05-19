@@ -54,7 +54,6 @@ const TestimonialsSection = () => {
                             key={item.id}
                             className="relative  p-6 rounded-xl  border border-slate-200 shadow-sm hover:border-emerald-200 transition-all transform hover:-translate-y-2 group"
                         >
-
                             <div className="relative z-10 flex flex-col h-full">
                                 <p className="text-slate-700 italic leading-relaxed mb-8 flex-row">
                                     "{item.feedback}"
@@ -94,7 +93,6 @@ const TestimonialsSection = () => {
                         </div>
                     ))}
                 </div>
-
             </div>
         </section>
     );
