@@ -21,7 +21,7 @@ export default function AboutPage() {
             Humanizing <span className="text-emerald-500">Care</span> through Technology.
           </h1>
           <p className="text-slate-400 text-lg  font-medium leading-relaxed max-w-2xl mx-auto">
-            We believe every family member deserves the highest standard of care. 
+            We believe every family member deserves the highest standard of care.
             Safety, compassion, and reliability are the pillars of our service.
           </p>
         </div>
@@ -32,33 +32,33 @@ export default function AboutPage() {
           <div className="relative">
             <h2 className="text-4xl font-black text-emerald-500 mb-8 tracking-tight">How it started</h2>
             <div className="space-y-6 text-slate-600 text-lg font-medium leading-relaxed">
-                <p>
+              <p>
                 Care.xyz was born from a simple realization: finding a trustworthy caregiver shouldn't be a gamble. Whether it's for a newborn or an elderly parent, the stress of finding the right help is universal.
-                </p>
-                <p>
+              </p>
+              <p>
                 We built a platform that rigorously vets every caregiver, ensuring they aren't just skilled, but also compassionate. Today, we bridge the gap between busy families and professional help.
-                </p>
+              </p>
             </div>
           </div>
-          
+
           <div className="p-10 rounded-[3rem] border border-slate-200 relative group shadow shadow-blue-50 overflow-hidden">
             <div className="grid grid-cols-2 gap-10 relative z-10">
-                <div className="space-y-1">
-                    <h3 className="text-4xl font-black text-slate-900">1K+</h3>
-                    <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Verified Staff</p>
-                </div>
-                <div className="space-y-1">
-                    <h3 className="text-4xl font-black text-slate-900">5K+</h3>
-                    <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Families Served</p>
-                </div>
-                <div className="space-y-1">
-                    <h3 className="text-4xl font-black text-slate-900">24/7</h3>
-                    <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Live Support</p>
-                </div>
-                <div className="space-y-1">
-                    <h3 className="text-4xl font-black text-slate-900">100%</h3>
-                    <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Safe Policy</p>
-                </div>
+              <div className="space-y-1">
+                <h3 className="text-4xl font-black text-slate-900">1K+</h3>
+                <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Verified Staff</p>
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-4xl font-black text-slate-900">5K+</h3>
+                <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Families Served</p>
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-4xl font-black text-slate-900">24/7</h3>
+                <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Live Support</p>
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-4xl font-black text-slate-900">100%</h3>
+                <p className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Safe Policy</p>
+              </div>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function AboutPage() {
               { icon: "👴", title: "Elderly Care", desc: "Compassionate companionship and daily support for the elderly." },
               { icon: "🏠", title: "Patient Care", desc: "Specialized assistance for recovering individuals at home." }
             ].map((s, i) => (
-              <div key={i}  className="group p-10 border border-slate-200 rounded-[2.5rem] hover:shadow-xl transition-all text-center">
+              <div key={i} className="group p-10 border border-slate-200 rounded-[2.5rem] hover:shadow-xl transition-all text-center">
                 <div className="text-5xl mb-6 transform group-hover:scale-125 transition-transform duration-500">{s.icon}</div>
                 <h3 className="text-xl font-black text-slate-900 mb-3">{s.title}</h3>
                 <p className="text-slate-500 font-medium text-sm leading-relaxed">{s.desc}</p>
@@ -102,20 +102,20 @@ export default function AboutPage() {
         </div>
 
         <div className=" border border-slate-200 shadow shadow-blue-50 rounded-[3rem]  p-12 text-center text-white relative overflow-hidden">
-        
+
           <div className="relative z-10 max-w-2xl mx-auto">
             <h2 className="text-2xl md:text-4xl font-black mb-8 text-emerald-400">Ready to join our community?</h2>
             <p className="text-slate-400 mb-12 font-medium text-lg leading-relaxed">
               Whether you are a professional caregiver looking for opportunities or a family in need of help, we have a place for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button 
+              <button
                 onClick={() => router.push('/')}
                 className="bg-emerald-600 px-12 py-5 rounded-2xl font-black text-white hover:bg-emerald-500 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-emerald-500/20"
               >
                 Start Booking
               </button>
-              <button 
+              <button
                 onClick={() => router.push('/contact')}
                 className="bg-sky-400 border border-white/10 px-12 py-5 rounded-2xl font-black text-white hover:bg-sky-600 transition-all hover:scale-105 active:scale-95"
               >
