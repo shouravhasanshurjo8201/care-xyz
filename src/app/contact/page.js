@@ -29,23 +29,23 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-amber-50 p-5">
       <div className="container  mx-auto">
-        
+
         <div className="text-center mb-5">
           <h1 className="text-4xl md:text-5xl font-black text-emerald-400 tracking-tight">Get in Touch</h1>
           <p className="text-slate-500 font-medium mt-2">We are here to help you and your loved ones.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-2 rounded-[3rem] shadow-xl shadow-slate-200/50 overflow-hidden border border-slate-200">
-          
+
           <div className="lg:col-span-2 bg-emerald-700 p-8 text-white flex flex-col justify-between relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl"></div>
-            
+
             <div className="relative z-10">
               <h2 className="text-3xl font-black mb-6 tracking-tight">Contact Information</h2>
               <p className="text-slate-300 mb-12 leading-relaxed font-medium">
                 Have questions about our services? Our dedicated support team is available to assist you.
               </p>
-              
+
               <div className="space-y-8">
                 <div className="flex items-center gap-5 group">
                   <div className="h-12 w-12 bg-white/10 rounded-2xl flex items-center justify-center text-xl group-hover:bg-emerald-500 transition-colors">📞</div>
@@ -74,9 +74,9 @@ export default function ContactPage() {
             </div>
 
             <div className="mt-4 flex gap-4 relative z-10">
-                <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">f</div>
-                <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">t</div>
-                <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">in</div>
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">f</div>
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">t</div>
+              <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">in</div>
             </div>
           </div>
 
@@ -98,6 +98,7 @@ export default function ContactPage() {
                     required
                   />
                 </div>
+
                 <div className="space-y-1">
                   <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Email Address</label>
                   <input
@@ -146,7 +147,6 @@ export default function ContactPage() {
               </button>
             </form>
           </div>
-
         </div>
       </div>
     </div>
