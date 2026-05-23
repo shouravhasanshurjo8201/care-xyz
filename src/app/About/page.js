@@ -8,6 +8,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-amber-50">
       <div className="bg-slate-800 py-10 px-5 text-center relative overflow-hidden">
+
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full opacity-20 pointer-events-none">
           <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-emerald-500 blur-[120px]"></div>
           <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-emerald-700 blur-[120px]"></div>
@@ -25,10 +26,12 @@ export default function AboutPage() {
             Safety, compassion, and reliability are the pillars of our service.
           </p>
         </div>
+
       </div>
 
       <div className="container mx-auto px-6 py-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-12">
+          
           <div className="relative">
             <h2 className="text-4xl font-black text-emerald-500 mb-8 tracking-tight">How it started</h2>
             <div className="space-y-6 text-slate-600 text-lg font-medium leading-relaxed">
