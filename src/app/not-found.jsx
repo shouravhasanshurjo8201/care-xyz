@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="min-h-[98vh] flex flex-col items-center justify-center bg-emerald-50 px-6 text-center">
-      
+
       <div className="relative mb-8">
         <h1 className="text-9xl font-black text-red-400 animate-pulse">
           404
@@ -20,6 +20,7 @@ export default function NotFound() {
       </div>
 
       <div className="flex flex-col sm:flex-row gap-4">
+
         <Link href="/">
           <button className="bg-emerald-600 text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-emerald-200 hover:bg-emerald-700 hover:shadow-none transition-all transform hover:-translate-y-1">
             Back to Home
@@ -33,6 +34,7 @@ export default function NotFound() {
         </Link>
 
       </div>
+
     </div>
   );
 }
