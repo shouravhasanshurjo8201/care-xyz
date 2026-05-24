@@ -48,7 +48,6 @@ const ServiceDetail = () => {
   const router = useRouter();
   const params = useParams();
   const { service_id } = params;
-
   const service = services.find((s) => s.id === service_id);
 
   const handleBooking = () => {
@@ -72,6 +71,7 @@ const ServiceDetail = () => {
     <div className="min-h-screen bg-amber-50">
       {/* Hero Section */}
       <div className="bg-slate-900 pt-20 pb-32 px-6 lg:px-20 text-center relative overflow-hidden">
+
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
           <div className="absolute top-10 left-10 w-32 h-32 rounded-full bg-emerald-500 blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-40 h-40 rounded-full bg-emerald-400 blur-3xl"></div>
@@ -86,6 +86,7 @@ const ServiceDetail = () => {
             {service.description}
           </p>
         </div>
+
       </div>
 
       {/* Main Content */}
@@ -108,6 +109,7 @@ const ServiceDetail = () => {
                   </div>
                 ))}
               </div>
+
             </div>
           </div>
 
