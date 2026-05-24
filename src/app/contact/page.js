@@ -87,7 +87,9 @@ export default function ContactPage() {
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-2">
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
                 <div className="space-y-1">
                   <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Your Name</label>
                   <input
@@ -109,6 +111,7 @@ export default function ContactPage() {
                     required
                   />
                 </div>
+
               </div>
 
               <div className="space-y-1">
@@ -145,6 +148,7 @@ export default function ContactPage() {
                   </span>
                 ) : "Send Message"}
               </button>
+
             </form>
           </div>
         </div>
