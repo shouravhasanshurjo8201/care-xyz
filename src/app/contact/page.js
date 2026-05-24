@@ -47,6 +47,7 @@ export default function ContactPage() {
               </p>
 
               <div className="space-y-8">
+
                 <div className="flex items-center gap-5 group">
                   <div className="h-12 w-12 bg-white/10 rounded-2xl flex items-center justify-center text-xl group-hover:bg-emerald-500 transition-colors">📞</div>
                   <div>
@@ -70,6 +71,7 @@ export default function ContactPage() {
                     <p className="font-bold text-lg text-white">Jamalpur, Mymensingh, BD</p>
                   </div>
                 </div>
+
               </div>
             </div>
 
@@ -78,9 +80,11 @@ export default function ContactPage() {
               <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">t</div>
               <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">in</div>
             </div>
+
           </div>
 
           <div className="lg:col-span-3 p-8">
+
             <div className="mb-4">
               <h3 className="text-2xl font-black text-emerald-400 mb-2">Send us a Message</h3>
               <p className="text-slate-500 font-medium">Fill out the form below and we'll get back to you shortly.</p>
