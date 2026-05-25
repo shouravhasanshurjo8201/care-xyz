@@ -15,7 +15,6 @@ const slides = [
     subtitle: "Childcare • Elderly Care • Special Support",
     bgImg: "https://i.postimg.cc/D0Xg1kh9/download.jpg",
   },
-
   {
     id: 2,
     title: "Safety is Our Top Priority",
@@ -59,14 +58,12 @@ const BannerSlider = () => {
         }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
-        className="h-full w-full rounded-xl"
-      >
+        className="h-full w-full rounded-xl" >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
               className="relative w-full h-full bg-cover bg-center flex items-center"
-              style={{ backgroundImage: `url(${slide.bgImg})` }}
-            >
+              style={{ backgroundImage: `url(${slide.bgImg})` }} >
               <div className="absolute inset-0 bg-linear-to-r from-slate-900/90 via-slate-900/40 to-transparent"></div>
 
               <div className="relative z-10 container mx-auto px-6 md:px-12 lg:px-20">
@@ -110,11 +107,13 @@ const BannerSlider = () => {
         <div className="custom-swiper-next absolute right-8 top-1/2 -translate-y-1/2 z-20 cursor-pointer w-10 h-10 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl hidden md:flex items-center justify-center text-white transition-all hover:bg-white/5 hover:border-emerald-600 active:scale-90">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 h-4"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
         </div>
+
       </Swiper>
 
       <style>{`
         .swiper-pagination-bullet { transition: all 0.3s ease-in-out; }
       `}</style>
+      
     </div>
   );
 };
