@@ -43,6 +43,7 @@ const TestimonialsSection = () => {
                     <h2 className="text-4xl md:text-5xl font-extrabold text-emerald-500 mt-3">
                         What Our Users Say
                     </h2>
+
                     <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
                         Real experiences from users who trusted Care.xyz for their family's care needs.
                     </p>
@@ -52,8 +53,8 @@ const TestimonialsSection = () => {
                     {testimonials.map((item) => (
                         <div
                             key={item.id}
-                            className="relative  p-6 rounded-xl  border border-slate-200 shadow-sm hover:border-emerald-200 transition-all transform hover:-translate-y-2 group"
-                        >
+                            className="relative  p-6 rounded-xl  border border-slate-200 shadow-sm hover:border-emerald-200 transition-all transform hover:-translate-y-2 group" >
+
                             <div className="relative z-10 flex flex-col h-full">
                                 <p className="text-slate-700 italic leading-relaxed mb-8 flex-row">
                                     "{item.feedback}"
