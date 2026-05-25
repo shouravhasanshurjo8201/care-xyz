@@ -24,8 +24,8 @@ const AboutSection = () => {
 
   return (
     <section className="py-10 ">
-      <div className=" px-8">
 
+      <div className=" px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12 mb-20">
           <div className="lg:w-1/2">
             <span className="text-emerald-600 font-bold uppercase tracking-widest text-sm block mb-4">
@@ -47,7 +47,7 @@ const AboutSection = () => {
                 🏠
               </div>
               <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-white">
-                <p className="text-slate-800 font-bold">Trusted by 1200+ Families</p>
+                <p className="text-slate-800 font-bold">Trusted by 100+ Families</p>
                 <p className="text-sm text-slate-500">Helping people since 2024</p>
               </div>
             </div>
@@ -73,6 +73,7 @@ const AboutSection = () => {
           ))}
         </div>
       </div>
+
     </section>
   );
 };
