@@ -40,6 +40,7 @@ const Services = () => {
           <h2 className="text-3xl md:text-5xl font-black text-emerald-400 mb-4">
             Our Specialized Services
           </h2>
+
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
             Providing the best caregiving services with the safety and well-being of your family as our top priority.
           </p>
@@ -49,8 +50,8 @@ const Services = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group relative border border-slate-300 p-8 rounded-3xl transition-all duration-300 hover:shadow-md hover:shadow-emerald-100 hover:-translate-y-2"
-            >
+              className="group relative border border-slate-300 p-8 rounded-3xl transition-all duration-300 hover:shadow-md hover:shadow-emerald-100 hover:-translate-y-2" >
+
               <div className={`w-16 h-16 ${service.bgClass} ${service.textClass} rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform`}>
                 {service.icon}
               </div>
@@ -64,6 +65,7 @@ const Services = () => {
               </p>
 
               <div className="flex items-center justify-between mt-auto pt-6 border-t border-slate-50">
+
                 <div>
                   <p className="text-xs text-slate-400 uppercase font-bold">Rate</p>
                   <p className="text-xl font-black text-emerald-600">
@@ -76,6 +78,7 @@ const Services = () => {
                     View Details
                   </button>
                 </Link>
+
               </div>
             </div>
           ))}
